@@ -4,25 +4,27 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://evindu.github.io/"/>
-  <updated>2015-09-28T09:42:03.305Z</updated>
+  <updated>2015-09-28T11:17:31.474Z</updated>
   <id>http://evindu.github.io/</id>
   
   <author>
-    <name><![CDATA[John Doe]]></name>
+    <name><![CDATA[Evin.Du]]></name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[春]]></title>
-    <link href="http://evindu.github.io/2015/09/28/2015%E6%98%A5/"/>
-    <id>http://evindu.github.io/2015/09/28/2015春/</id>
+    <title><![CDATA[2014春]]></title>
+    <link href="http://evindu.github.io/2015/09/28/2014%E6%98%A5/"/>
+    <id>http://evindu.github.io/2015/09/28/2014春/</id>
     <published>2015-09-28T09:41:25.000Z</published>
-    <updated>2015-09-28T09:42:03.305Z</updated>
-    <content type="html"></content>
+    <updated>2015-09-28T11:17:31.474Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/bridge.jpg" alt="bridge"></p>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/bridge.jpg" alt="bridge"></p>
+]]>
     </summary>
     
       <category term="github" scheme="http://evindu.github.io/tags/github/"/>
@@ -36,19 +38,20 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Photograph]]></title>
+    <title><![CDATA[VSCO Film]]></title>
     <link href="http://evindu.github.io/2015/09/28/Photograph/"/>
     <id>http://evindu.github.io/2015/09/28/Photograph/</id>
     <published>2015-09-28T09:38:18.000Z</published>
-    <updated>2015-09-28T09:41:10.554Z</updated>
-    <content type="html"></content>
+    <updated>2015-09-28T11:32:32.670Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/vsco.jpg" alt="vsco"><br><a href="http://pan.baidu.com/s/1eQ0gHrG" target="_blank" rel="external">http://pan.baidu.com/s/1eQ0gHrG</a> (提取码q5mn)</p>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/vsco.jpg" alt="vsco"><br><a href="http://pan.baidu.com/s/1eQ0gHrG" target="_blank" rel="e]]>
     </summary>
     
-      <category term="github" scheme="http://evindu.github.io/tags/github/"/>
+      <category term="film" scheme="http://evindu.github.io/tags/film/"/>
     
-      <category term="hexo" scheme="http://evindu.github.io/tags/hexo/"/>
+      <category term="vsco" scheme="http://evindu.github.io/tags/vsco/"/>
     
       <category term="摄影" scheme="http://evindu.github.io/categories/%E6%91%84%E5%BD%B1/"/>
     
@@ -61,11 +64,12 @@
     <link href="http://evindu.github.io/2015/09/28/Sublime%E7%AC%94%E8%AE%B0/"/>
     <id>http://evindu.github.io/2015/09/28/Sublime笔记/</id>
     <published>2015-09-28T07:18:19.000Z</published>
-    <updated>2015-09-28T11:10:18.077Z</updated>
-    <content type="html"><![CDATA[<p>![sublime]（<a href="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png）" target="_blank" rel="external">http://7xn36w.com1.z0.glb.clouddn.com/sublime.png）</a></p>
+    <updated>2015-09-28T11:11:11.959Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png" alt="sublime"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>![sublime]（<a href="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png）" target="_blank" rel="external">http://7xn36w.com1.z0.glb.clouddn.]]>
+    <![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png" alt="sublime"></p>
+]]>
     </summary>
     
       <category term="sublime" scheme="http://evindu.github.io/tags/sublime/"/>
@@ -79,10 +83,12 @@
     <link href="http://evindu.github.io/2015/09/28/Hexo%E7%AC%94%E8%AE%B0/"/>
     <id>http://evindu.github.io/2015/09/28/Hexo笔记/</id>
     <published>2015-09-28T07:18:19.000Z</published>
-    <updated>2015-09-28T09:37:14.428Z</updated>
-    <content type="html"></content>
+    <updated>2015-09-28T11:14:47.100Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/hexo.png" alt="hexo"></p>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/hexo.png" alt="hexo"></p>
+]]>
     </summary>
     
       <category term="github" scheme="http://evindu.github.io/tags/github/"/>
