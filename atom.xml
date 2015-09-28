@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://evindu.github.io/"/>
-  <updated>2015-09-28T07:37:06.718Z</updated>
+  <updated>2015-09-28T09:42:03.305Z</updated>
   <id>http://evindu.github.io/</id>
   
   <author>
@@ -15,40 +15,82 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[test2]]></title>
-    <link href="http://evindu.github.io/2015/09/28/test2/"/>
-    <id>http://evindu.github.io/2015/09/28/test2/</id>
-    <published>2015-09-28T07:18:19.000Z</published>
-    <updated>2015-09-28T07:37:06.718Z</updated>
+    <title><![CDATA[春]]></title>
+    <link href="http://evindu.github.io/2015/09/28/2015%E6%98%A5/"/>
+    <id>http://evindu.github.io/2015/09/28/2015春/</id>
+    <published>2015-09-28T09:41:25.000Z</published>
+    <updated>2015-09-28T09:42:03.305Z</updated>
     <content type="html"></content>
     <summary type="html">
     
     </summary>
     
+      <category term="github" scheme="http://evindu.github.io/tags/github/"/>
+    
       <category term="hexo" scheme="http://evindu.github.io/tags/hexo/"/>
     
-      <category term="Life" scheme="http://evindu.github.io/categories/Life/"/>
+      <category term="摄影" scheme="http://evindu.github.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+      <category term="作品" scheme="http://evindu.github.io/categories/%E6%91%84%E5%BD%B1/%E4%BD%9C%E5%93%81/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[test]]></title>
-    <link href="http://evindu.github.io/2015/09/28/test/"/>
-    <id>http://evindu.github.io/2015/09/28/test/</id>
-    <published>2015-09-28T07:18:19.000Z</published>
-    <updated>2015-09-28T07:38:47.620Z</updated>
+    <title><![CDATA[Photograph]]></title>
+    <link href="http://evindu.github.io/2015/09/28/Photograph/"/>
+    <id>http://evindu.github.io/2015/09/28/Photograph/</id>
+    <published>2015-09-28T09:38:18.000Z</published>
+    <updated>2015-09-28T09:41:10.554Z</updated>
     <content type="html"></content>
     <summary type="html">
     
     </summary>
     
+      <category term="github" scheme="http://evindu.github.io/tags/github/"/>
+    
       <category term="hexo" scheme="http://evindu.github.io/tags/hexo/"/>
     
-      <category term="lianxi" scheme="http://evindu.github.io/tags/lianxi/"/>
+      <category term="摄影" scheme="http://evindu.github.io/categories/%E6%91%84%E5%BD%B1/"/>
     
-      <category term="Life" scheme="http://evindu.github.io/categories/Life/"/>
+      <category term="技巧" scheme="http://evindu.github.io/categories/%E6%91%84%E5%BD%B1/%E6%8A%80%E5%B7%A7/"/>
     
-      <category term="move" scheme="http://evindu.github.io/categories/Life/move/"/>
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Sublime 笔记]]></title>
+    <link href="http://evindu.github.io/2015/09/28/Sublime%E7%AC%94%E8%AE%B0/"/>
+    <id>http://evindu.github.io/2015/09/28/Sublime笔记/</id>
+    <published>2015-09-28T07:18:19.000Z</published>
+    <updated>2015-09-28T09:37:57.122Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="sublime" scheme="http://evindu.github.io/tags/sublime/"/>
+    
+      <category term="随记" scheme="http://evindu.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo 笔记]]></title>
+    <link href="http://evindu.github.io/2015/09/28/Hexo%E7%AC%94%E8%AE%B0/"/>
+    <id>http://evindu.github.io/2015/09/28/Hexo笔记/</id>
+    <published>2015-09-28T07:18:19.000Z</published>
+    <updated>2015-09-28T09:37:14.428Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="github" scheme="http://evindu.github.io/tags/github/"/>
+    
+      <category term="hexo" scheme="http://evindu.github.io/tags/hexo/"/>
+    
+      <category term="项目" scheme="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="Github" scheme="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/Github/"/>
     
   </entry>
   
