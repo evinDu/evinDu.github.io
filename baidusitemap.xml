@@ -3,6 +3,31 @@
 
     
   <url>
+    <loc>http://evindu.github.io/2015/09/28/Hexo%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2015-10-03T15:56:06.104Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 常见问题</title>
+        <pubTime>2015-09-28T07:18:19.000Z</pubTime>
+        
+        <tag>github </tag>
+         
+        <tag>hexo </tag>
+         
+         
+           
+             
+              <breadCrumb title="项目" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+          
+             
+              <breadCrumb title="Github" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/Github/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://evindu.github.io/2015/09/29/The-new-iPad-%E9%99%8D%E7%BA%A7/</loc>
     <lastmod>2015-10-03T15:54:53.001Z</lastmod>
     <data>
@@ -46,31 +71,6 @@
           
              
               <breadCrumb title="Sublime" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/Sublime/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://evindu.github.io/2015/09/28/Hexo%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2015-09-29T13:44:54.296Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo 常见问题</title>
-        <pubTime>2015-09-28T07:18:19.000Z</pubTime>
-        
-        <tag>github </tag>
-         
-        <tag>hexo </tag>
-         
-         
-           
-             
-              <breadCrumb title="项目" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
-          
-             
-              <breadCrumb title="Github" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/Github/"/>
           
         </display>
     </data>
