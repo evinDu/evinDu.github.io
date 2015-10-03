@@ -4,7 +4,7 @@
   <subtitle><![CDATA[How could you live and have no story to tell?]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://evindu.github.io/"/>
-  <updated>2015-10-03T16:02:27.140Z</updated>
+  <updated>2015-10-03T16:03:58.419Z</updated>
   <id>http://evindu.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://evindu.github.io/2015/10/03/Sublime%20%E6%8F%92%E4%BB%B6%E7%AF%87/"/>
     <id>http://evindu.github.io/2015/10/03/Sublime 插件篇/</id>
     <published>2015-10-03T15:54:19.000Z</published>
-    <updated>2015-10-03T16:02:27.140Z</updated>
+    <updated>2015-10-03T16:03:58.419Z</updated>
     <content type="html"><![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png" alt="Sublime Text"></p>
 <p>一、如何安装插件：<br>1.在线安装<br><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime%20install%20package.gif" alt="install gif"></p>
 <p>Win和Linux用户，同时按住 <code>*Ctrl + Shift + P*</code> 三个键<br>Mac用户，同时按住 <code>*Cmd + Shift + P*</code> 三个键<br>按<code>install package</code>调出 控制台 后输入插件名称 搜索。 </p>
@@ -35,14 +35,11 @@
 <center><img src="http://7xn36w.com1.z0.glb.clouddn.com/markdownerror.png" alt="markdown error"></center>
 
 <p>6.<a href="https://github.com/revolunet/sublimetext-markdown-preview" target="_blank" rel="external">MarkdownPreview</a>：生成HTML网页预览；<br>按<code>Ctrl + B</code> 在MD文件所在位置生成HTML文件<br>按<code>Ctrl Shift P</code>调出控制台输入<code>Markdown Preview</code>直接在浏览器中打开生成的HTML文件。</p>
-<ul>
-<li><p>7.<a href="http://theo.im/OmniMarkupPreviewer" target="_blank" rel="external">OmniMarkupPreviwer</a>： 实时在浏览器中预览，而<code>MarkdownPreview</code>是需要手动生成的。如果双屏的话，应该具有不错的体验。<br><img src="http://7xn36w.com1.z0.glb.clouddn.com/OmniMarkupPreviwer.gif" alt="omnimarkuppreviwer"></p>
+<p>7.<a href="http://theo.im/OmniMarkupPreviewer" target="_blank" rel="external">OmniMarkupPreviwer</a>： 实时在浏览器中预览，而<code>MarkdownPreview</code>是需要手动生成的。如果双屏的话，应该具有不错的体验。<br> <img src="http://7xn36w.com1.z0.glb.clouddn.com/OmniMarkupPreviwer.gif" alt="omnimarkuppreviwer"></p>
 <ul>
 <li><code>Ctrl+Alt+O</code>: Preview Markup in Browser.</li>
 <li><code>Ctrl+Alt+X</code>: Export Markup as HTML.</li>
 <li><code>Ctrl+Alt+C</code>: Copy Markup as HTML.</li>
-</ul>
-</li>
 </ul>
 <p><strong>-待续</strong></p>
 ]]></content>
