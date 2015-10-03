@@ -3,6 +3,29 @@
 
     
   <url>
+    <loc>http://evindu.github.io/2015/10/03/Sublime%20%E6%8F%92%E4%BB%B6%E7%AF%87/</loc>
+    <lastmod>2015-10-03T15:58:46.029Z</lastmod>
+    <data>
+        <display>
+        <title>Sublime 插件篇</title>
+        <pubTime>2015-10-03T15:54:19.000Z</pubTime>
+        
+        <tag>sublime </tag>
+         
+         
+           
+             
+              <breadCrumb title="项目" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+          
+             
+              <breadCrumb title="Sublime" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/Sublime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://evindu.github.io/2015/09/28/Hexo%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2015-10-03T15:56:06.104Z</lastmod>
     <data>
@@ -48,29 +71,6 @@
           
              
               <breadCrumb title="iOS" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://evindu.github.io/2015/10/03/Sublime%20%E6%8F%92%E4%BB%B6%E7%AF%87/</loc>
-    <lastmod>2015-10-03T15:54:39.318Z</lastmod>
-    <data>
-        <display>
-        <title>Sublime 插件篇</title>
-        <pubTime>2015-10-03T15:54:19.000Z</pubTime>
-        
-        <tag>sublime </tag>
-         
-         
-           
-             
-              <breadCrumb title="项目" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
-          
-             
-              <breadCrumb title="Sublime" url="http://evindu.github.io/categories/%E9%A1%B9%E7%9B%AE/Sublime/"/>
           
         </display>
     </data>
