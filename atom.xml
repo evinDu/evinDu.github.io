@@ -4,7 +4,7 @@
   <subtitle><![CDATA[How could you live and have no story to tell?]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://evindu.github.io/"/>
-  <updated>2015-10-04T04:14:40.633Z</updated>
+  <updated>2015-10-04T04:15:54.706Z</updated>
   <id>http://evindu.github.io/</id>
   
   <author>
@@ -19,10 +19,10 @@
     <link href="http://evindu.github.io/2015/10/03/Sublime%20%E6%8F%92%E4%BB%B6%E7%AF%87/"/>
     <id>http://evindu.github.io/2015/10/03/Sublime 插件篇/</id>
     <published>2015-10-03T15:54:19.000Z</published>
-    <updated>2015-10-04T04:14:40.633Z</updated>
+    <updated>2015-10-04T04:15:54.706Z</updated>
     <content type="html"><![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png" alt="Sublime Text"></p>
 <h1 id="一、如何安装插件：">一、如何安装插件：</h1><ul>
-<li>1. 在线安装<br><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime%20install%20package.gif" alt="install gif"></li>
+<li>\ 在线安装<br><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime%20install%20package.gif" alt="install gif"></li>
 </ul>
 <p>Win和Linux用户，同时按住 <code>*Ctrl + Shift + P*</code> 三个键<br>Mac用户，同时按住 <code>*Cmd + Shift + P*</code> 三个键<br>按<code>install package</code>调出 控制台 后输入插件名称 搜索。 </p>
 <p>2.下载安装包</p>
@@ -48,7 +48,7 @@
     <summary type="html">
     <![CDATA[<p><img src="http://7xn36w.com1.z0.glb.clouddn.com/sublime.png" alt="Sublime Text"></p>
 <h1 id="一、如何安装插件：">一、如何安装插件：</h1><ul>
-<li>1. 在线安装<br]]>
+<li>\ 在线安装<br>]]>
     </summary>
     
       <category term="sublime" scheme="http://evindu.github.io/tags/sublime/"/>
