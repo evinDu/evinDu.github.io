@@ -88,11 +88,7 @@ var _hmt = _hmt || [];
             </ul>
             <nav id="sub-nav">
               <div id="search-form-wrap">
-                <form action="//www.baidu.com/s" method="get" accept-charset="UTF-8" class="search-form">
-  <input type="search" name="wd" results="0" class="search-form-input" placeholder="搜索">
-  <input type="hidden" name="si" value="你的网址（不带http）">
-  <input type="hidden" name="ct" value="你从百度站长工具得到的验证码">
-</form>
+              <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://evindu.github.io"></form>
               </div>
             </nav>
           </div>
@@ -383,24 +379,6 @@ var _hmt = _hmt || [];
   </div>
 </footer>
     
-<script>
-var option = {
-  engineKey: '5c70a5204665803b60e3'
-};
-(function(w,d,t,u,n,s,e){
-  s = d.createElement(t);
-  s.src = u;
-  s.async = 1;
-  w[n] = function(r){
-    w[n].opts = r;
-  };
-  e = d.getElementsByTagName(t)[0];
-  e.parentNode.insertBefore(s, e);
-})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-_ts(option);
-</script>
-
-
 
   <script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/jquery.fancybox.pack.js'></script>
 
@@ -412,16 +390,6 @@ _ts(option);
 
 <script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/html-patch.js'></script>
 <script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/script.js'></script>
-
-<script src="/js/instantclick.min.js" data-no-instant></script>
-<script data-no-instant>
-/* Google Analytics code here, without ga('send', 'pageview') */
- 
-InstantClick.on('change', function() {
-  ga('send', 'pageview', location.pathname + location.search);
-});
- 
-InstantClick.init();
 </script>
 
 <script type="text/javascript">
@@ -433,7 +401,16 @@ InstantClick.init();
   _st('install','ppgNZef51VF3L7QbNbnX','2.0.0');
 </script>
 
-
+<script src="instantclick.min.js" data-no-instant></script>
+<script data-no-instant>
+/* Google Analytics code here, without ga('send', 'pageview') */
+ 
+InstantClick.on('change', function() {
+  ga('send', 'pageview', location.pathname + location.search);
+});
+ 
+InstantClick.init();
+</script>
   </div>
 </body>
 </html>
