@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="google-site-verification" content="hpxma7IpqS3t8VRNyMES0VVUXOemianbpaXoWtbJtK8" />
+  <meta name="baidu-site-verification" content="j41fN9VCJE" />
+  <meta charset="utf-8">
+  
+  <title>ss-panel | Evin.Du</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="shadowsocksgit clone -b manyuser https://github.com/breakwa11/shadowsocks.git
+执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。
+根目录即 ./shadowsocks
+子目录即 ./sh">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ss-panel">
+<meta property="og:url" content="http://evindu.github.io/2016/02/22/ss-panel/index.html">
+<meta property="og:site_name" content="Evin.Du">
+<meta property="og:description" content="shadowsocksgit clone -b manyuser https://github.com/breakwa11/shadowsocks.git
+执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。
+根目录即 ./shadowsocks
+子目录即 ./sh">
+<meta property="og:updated_time" content="2016-02-22T03:16:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ss-panel">
+<meta name="twitter:description" content="shadowsocksgit clone -b manyuser https://github.com/breakwa11/shadowsocks.git
+执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。
+根目录即 ./shadowsocks
+子目录即 ./sh">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  
+  
+    <link rel="stylesheet" href="/scrollLoading/style.css" type="text/css">
+  
+  
+
+
+  
+    <style type="text/css">
+      .logo { background-image:url(http://7xn36w.com1.z0.glb.clouddn.com/logob.png); }
+    </style>
+  
+
+  
+    <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+  
+<script type="text/javascript">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?811f924ca9bb1d1700f787fca1ca6394";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</script>
+
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo"></a>
+          </h1>
+          
+            <h2 class="subtitle-wrap">
+              <p class="subtitle">How could you live and have no story to tell?</p>
+            </h2>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/">主页</a></li>
+              
+                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/摄影/">摄影</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/摄影/作品/">作品</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/摄影/技巧/">技巧</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/项目/">项目</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/项目/Github/">Github</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/项目/Shadowsocks/">Shadowsocks</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/项目/Sublime/">Sublime</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/项目/iOS/">iOS</a></li></ul></li></ul>
+                  
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/about/index.html">关于</a></li>
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+              <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://evindu.github.io"></form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header"><a class="page-title-link" href="/categories/项目/">项目</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/项目/Shadowsocks/">Shadowsocks</a></h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-ss-panel" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      ss-panel
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="/2016/02/22/ss-panel/" class="article-date">
+  <time datetime="2016-02-22T03:14:35.000Z" itemprop="datePublished">2016-02-22</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <h1 id="shadowsocks">shadowsocks</h1><p><code>git clone -b manyuser https://github.com/breakwa11/shadowsocks.git</code></p>
+<p>执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。</p>
+<p>根目录即 ./shadowsocks</p>
+<p>子目录即 ./shadowsocks/shadowsocks</p>
+<p>#mv config-simple.php config.php //更名 # vi config.php //修改配置</p>
+<p> 导入web数据库</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># mysql -u root -pmysql&gt;​create database shadowsocks; </span><br><span class="line">mysql&gt; use shadowsocks;</span><br><span class="line">mysql&gt; <span class="keyword">source</span> <span class="regexp">/root/</span>ss-panel<span class="regexp">/sql/i</span>nvite_code.sql</span><br><span class="line">mysql&gt; <span class="keyword">source</span> <span class="regexp">/root/</span>ss-panel<span class="regexp">/sql/</span>ss_admin.sql</span><br><span class="line">mysql&gt; <span class="keyword">source</span> <span class="regexp">/root/</span>ss-panel<span class="regexp">/sql/</span>ss_node.sql</span><br><span class="line">mysql&gt; <span class="keyword">source</span> <span class="regexp">/root/</span>ss-panel<span class="regexp">/sql/</span>ss_reset_pwd.sql</span><br><span class="line">mysql&gt; <span class="keyword">source</span> <span class="regexp">/root/</span>ss-panel<span class="regexp">/sql/u</span>ser.sql</span><br><span class="line">mysql&gt; flush privileges;</span><br><span class="line">mysql&gt; exit;</span><br></pre></td></tr></table></figure>
+<h3 id="Shadowsocks-json语法详解">Shadowsocks.json语法详解</h3><p>vi /etc/sysctl.conf</p>
+<p>fs.file-max = 51200</p>
+<p>net.core.rmem_max = 67108864</p>
+<p>net.core.wmem_max = 67108864</p>
+<p>net.core.netdev_max_backlog = 250000</p>
+<p>net.core.somaxconn = 4096</p>
+<p>net.ipv4.tcp_syncookies = 1</p>
+<p>net.ipv4.tcp_tw_reuse = 1</p>
+<p>net.ipv4.tcp_tw_recycle = 0</p>
+<p>net.ipv4.tcp_fin_timeout = 30</p>
+<p>net.ipv4.tcp_keepalive_time = 1200</p>
+<p>net.ipv4.ip_local_port_range = 10000 65000</p>
+<p>net.ipv4.tcp_max_syn_backlog = 8192</p>
+<p>net.ipv4.tcp_max_tw_buckets = 5000</p>
+<p>net.ipv4.tcp_rmem = 4096 87380 67108864</p>
+<p>net.ipv4.tcp_wmem = 4096 65536 67108864</p>
+<p>net.ipv4.tcp_mtu_probing = 1</p>
+<p>net.ipv4.tcp_congestion_control = hybla</p>
+<p>net.ipv4.tcp_syncookies = 1</p>
+<p>安装 pip 包管理器（如果没安装的话）:</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get <span class="keyword">install</span> python-pip  \<span class="comment"># For Debian/Ubuntu</span></span><br><span class="line">$ sudo yum <span class="keyword">install</span> python-pip      \<span class="comment"># For CentOS</span></span><br></pre></td></tr></table></figure>
+<p>安装依赖包：</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip <span class="keyword">install</span> cymysql</span><br></pre></td></tr></table></figure>
+<p>注意，官方文档里的 <code>shadowsocks.sql</code> 就不用导入了，所用到的 user 表在上面 ss-panel 已经导入了。</p>
+<p>安装 supervisor （用的是上面安装过的 pip）：</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip <span class="keyword">install</span> supervisor</span><br></pre></td></tr></table></figure>
+<p>然后创建配置文件</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>echo_supervisord_conf &gt; <span class="regexp">/etc/supervisord</span>.conf</span><br></pre></td></tr></table></figure>
+<p>修改配置文件</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="keyword">vi</span> /etc/supervisord.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure>
+<p>在文件尾部（当然也可以<a href="http://supervisord.org/configuration.html" target="_blank" rel="external">新建配置文件</a>，不过这样比较方便）添加如下内容并酌情修改：</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">[program:shadowsocks]</span></span><br><span class="line"><span class="setting">command = <span class="value">./shadowsocks/run.sh </span></span></span><br><span class="line"><span class="setting">user = <span class="value">root  </span></span></span><br><span class="line"><span class="setting">autostart = <span class="value"><span class="keyword">true</span>  </span></span></span><br><span class="line"><span class="setting">autorestart = <span class="value"><span class="keyword">true</span></span></span></span><br></pre></td></tr></table></figure>
+<p>其中 command 里的目录请自行修改为你的 servers.py 所在的绝对路径。</p>
+<p>重启 supervisor 服务以加载配置</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>killall -<span class="constant">HUP</span> supervisord</span><br></pre></td></tr></table></figure>
+<p>查看 shadowsocks-manyuser 是否已经运行：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ps -ef | grep servers.py</span><br><span class="line">root       <span class="number">952</span>   <span class="number">739</span>  <span class="number">0</span> <span class="number">15</span>:<span class="number">40</span> ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> python /root/shadowsocks-rm/shadowsocks/servers.py</span><br></pre></td></tr></table></figure>
+<p>可以通过以下命令管理 shadowsock-manyuser 的状态</p>
+<p>$ supervisorctl {start|stop|restart} ss-manyuser</p>
+<p>设置 supervisord 开机启动，编辑启动文件</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi /etc/rc.<span class="keyword">local</span></span><br></pre></td></tr></table></figure>
+<p>在末尾另起一行添加</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>supervisord</span><br></pre></td></tr></table></figure>
+<p>保存退出（和上文类似）。另 CentOS7 还需要为 rc.local 添加执行权限</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="keyword">chmod</span> +<span class="keyword">x</span> /etc/rc.<span class="keyword">local</span></span><br></pre></td></tr></table></figure>
+<p>至此运用 supervisord 控制 Shadowsocks 开机自启和后台运行设置完成。重启服务器即可</p>
+<p>P.S. 如果当你在运行 supervisord 命令时出现以下的错误提示</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ [root@zhgqthomas ~]\<span class="comment"># supervisord</span></span><br><span class="line">/usr/lib/python2<span class="number">.7</span>/site-packages/supervisor-<span class="number">3.2</span><span class="number">.0</span>-py2<span class="number">.7</span>.egg/supervisor/options.py:<span class="number">296</span>: UserWarning: Supervisord <span class="keyword">is</span> <span class="property">running</span> <span class="keyword">as</span> root <span class="keyword">and</span> <span class="keyword">it</span> <span class="keyword">is</span> searching <span class="keyword">for</span> <span class="keyword">its</span> configuration <span class="type">file</span> <span class="keyword">in</span> default locations (including <span class="keyword">its</span> current working directory); you probably want <span class="keyword">to</span> specify a <span class="string">"-c"</span> argument specifying an absolute <span class="command">path to</span> a configuration <span class="type">file</span> <span class="keyword">for</span> improved security.</span><br><span class="line">'Supervisord <span class="keyword">is</span> <span class="property">running</span> <span class="keyword">as</span> root <span class="keyword">and</span> <span class="keyword">it</span> <span class="keyword">is</span> searching '</span><br><span class="line">Error: Another program <span class="keyword">is</span> already listening <span class="function_start"><span class="keyword">on</span></span> a port <span class="keyword">that</span> one <span class="keyword">of</span> our HTTP servers <span class="keyword">is</span> configured <span class="keyword">to</span> use. Shut this program down <span class="keyword">first</span> <span class="keyword">before</span> starting supervisord.</span><br><span class="line">For help, use /usr/bin/supervisord -h</span><br></pre></td></tr></table></figure>
+<p>那是因为 supervisord 已经启动了,重复启动就会出现上面的错误提示.</p>
+<h3 id="常见错误_FAQ">常见错误 FAQ</h3><p>连接上 ss 试试看能不能翻墙了？</p>
+<p>八成不能。</p>
+<p>虽然你成功的把 servers.py 跑起来了，但还可能有各种神奇的错误阻止你翻出伟大的墙。下面窝们来排排错<del>坐</del>：</p>
+<p>首先国际惯例查看连接：</p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ netstat -anp <span class="string">| grep 你的端口</span></span><br></pre></td></tr></table></figure>
+<p>正常的话，应该是这样的：</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Active Internet connections (servers and established)  </span><br><span class="line">Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name  </span><br><span class="line">tcp        0      <span class="number">0 0.0.0</span>.<span class="number">0:62111</span>            <span class="number">0.0.0.0</span>:*               LISTEN      32083/python  </span><br><span class="line">tcp        0      <span class="number">0 162.233.122</span>.<span class="number">111:62111</span>    <span class="number">115.233.233.140</span>:47177   TIME_WAIT   -  </span><br><span class="line">tcp        0      <span class="number">0 162.233.122</span>.<span class="number">111:62111</span>    <span class="number">115.233.233.140</span>:47161   TIME_WAIT   -  </span><br><span class="line">tcp        0      <span class="number">0 162.233.122</span>.<span class="number">111:62111</span>    <span class="number">115.233.233.140</span>:47160   TIME_WAIT   -  </span><br><span class="line">tcp        0      <span class="number">0 162.233.122</span>.<span class="number">111:62111</span>    <span class="number">115.233.233.140</span>:47157   TIME_WAIT   -</span><br></pre></td></tr></table></figure>
+<p>如果没有来自你的 IP 的 TCP 连接的话，那八成就是防火墙的锅了，执行 iptables 放行你的端口：</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ iptables -I <span class="keyword">INPUT</span> -p tcp -<span class="keyword">m</span> tcp --dport 你的端口 -j ACCEPT</span><br><span class="line">$ iptables-<span class="keyword">save</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>ss-panel 新注册的用户所分配的端口均为其 id-1 的用户的端口号 + 1。比如说你把 admin 用户（uid 为1）的端口改为 12450（ss-panel 中不能改，去数据库改），那么后面注册的新用户的端口就会是 12451, 12452 这样递增的。</p>
+</blockquote>
+<p>所以如果你要开放注册，就要这样配置你的 iptables：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\<span class="preprocessor"># 注意是半角冒号，意为允许 <span class="number">12450</span> 及以上的端口</span></span><br><span class="line">\<span class="preprocessor"># 也可以指定 <span class="number">12450</span>:<span class="number">15550</span> 这样的范围</span></span><br><span class="line">$ iptables -I INPUT -p tcp -m tcp --dport <span class="number">10000</span>: -j ACCEPT</span><br></pre></td></tr></table></figure>
+<p>现在再连接 ss，你就应该可以看到 TCP 连接信息了。</p>
+<p>如果还是翻不出去，并且得到了这样的错误信息的话：</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="constant">WARNING</span><span class="symbol">:root</span><span class="symbol">:unsupported</span> addrtype <span class="number">30</span>, maybe wrong password <span class="keyword">or</span> encrypti  </span><br><span class="line"><span class="constant">ERROR</span><span class="symbol">:root</span><span class="symbol">:can</span> <span class="keyword">not</span> parse header <span class="keyword">when</span> handling connection from <span class="number">115.203</span>.  </span><br><span class="line"><span class="constant">Traceback</span> (most recent call last)<span class="symbol">:</span>  </span><br><span class="line">  <span class="constant">File</span> <span class="string">"../shadowsocks/tcprelay.py"</span>, line <span class="number">315</span>, <span class="keyword">in</span> _handle_stage_addr</span><br><span class="line">    raise <span class="constant">Exception</span>(<span class="string">'can not parse header'</span>)</span><br><span class="line"><span class="constant">Exception</span><span class="symbol">:</span> can <span class="keyword">not</span> parse header</span><br></pre></td></tr></table></figure>
+<p>正如 WARNING 所说，是加密方式出错了。你可能会说，不对啊，我在 ss-panel 里设置的加密方式和客户端上的一样啊？</p>
+<p>最开始窝也是这么认为的，直到窝发现了 config.py 中的</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="setting">SS_BIND_IP = <span class="value"><span class="string">'0.0.0.0'</span>  </span></span></span><br><span class="line"><span class="setting">SS_METHOD = <span class="value"><span class="string">'rc4-md5'</span></span></span></span><br></pre></td></tr></table></figure>
+<p>两个设置项。</p>
+<p>很遗憾，mengskysama 的 ss-manyuser 并不支持不支持自定义加密方式，所以面板上的修改是没有卵用的。（你需要 <a href="https://github.com/orvice/ss-panel/wiki/v3-custom-method" target="_blank" rel="external">shadowsocks-go mu</a>）</p>
+<p>修改 config.py 中的加密方式，在 ss-panel 中添加节点，应该就可以翻出去了。</p>
+
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://evindu.github.io/2016/02/22/ss-panel/" data-id="cikxevo6u000bu4pcvt8hnbid" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+        
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shadowsocks/">shadowsocks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vpn/">vpn</a></li></ul>
+
+      </footer>
+    </div>
+  </article>
+  
+  <section id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-ss-panel" data-title="ss-panel" data-url="http://evindu.github.io/2016/02/22/ss-panel/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'evindu'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  </section>
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>关注我 :</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="instagram" href="https://instagram.com/evin.193/" target="_blank"><i class="icon fa fa-instagram"></i></a></li>
+      
+        <li><a class="social-tooltip" title="weibo" href="http://weibo.com/duyifeng" target="_blank"><i class="icon fa fa-weibo"></i></a></li>
+      
+        <li><a class="social-tooltip" title="wechat" href="http://7xn36w.com1.z0.glb.clouddn.com/QR.png" target="_blank"><i class="icon fa fa-wechat"></i></a></li>
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/evindu" target="_blank"><i class="icon fa fa-github"></i></a></li>
+      
+        <li><a class="social-tooltip" title="twitter" href="https://twitter.com/EvenD_Chiphell" target="_blank"><i class="icon fa fa-twitter"></i></a></li>
+      
+        <li><a class="social-tooltip" title="dribbble" href="https://dribbble.com/evindu" target="_blank"><i class="icon fa fa-dribbble"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="/" target="_blank"><i class="icon fa fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/10/12/Markdown 笔记/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <p class="article-nav-title">Markdown</p>
+      <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+    </a>
+  
+</nav>
+
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2016/02/22/ss-panel/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/项目/">项目</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/项目/Shadowsocks/">Shadowsocks</a></p>
+              <p class="item-title"><a href="/2016/02/22/ss-panel/" class="title">ss-panel</a></p>
+              <p class="item-date"><time datetime="2016-02-22T03:14:35.000Z" itemprop="datePublished">2016-02-22</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/10/12/Markdown 笔记/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/10/12/Markdown 笔记/" class="title">Markdown</a></p>
+              <p class="item-date"><time datetime="2015-10-12T11:56:11.000Z" itemprop="datePublished">2015-10-12</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/10/03/Sublime 插件篇/" class="thumbnail">
+  
+    <span style="background-image:url(http://7xn36w.com1.z0.glb.clouddn.com/sublime.png
+)" alt="Sublime 插件篇" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/项目/">项目</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/项目/Sublime/">Sublime</a></p>
+              <p class="item-title"><a href="/2015/10/03/Sublime 插件篇/" class="title">Sublime 插件篇</a></p>
+              <p class="item-date"><time datetime="2015-10-03T15:54:19.000Z" itemprop="datePublished">2015-10-03</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/09/29/The-new-iPad-降级/" class="thumbnail">
+  
+    <span style="background-image:url(http://7xn36w.com1.z0.glb.clouddn.com/jiangji.jpg
+)" alt="The new iPad Downgrade" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/项目/">项目</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/项目/iOS/">iOS</a></p>
+              <p class="item-title"><a href="/2015/09/29/The-new-iPad-降级/" class="title">The new iPad Downgrade</a></p>
+              <p class="item-date"><time datetime="2015-09-29T12:27:19.000Z" itemprop="datePublished">2015-09-29</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/09/28/2014春/" class="thumbnail">
+  
+    <span style="background-image:url(http://7xn36w.com1.z0.glb.clouddn.com/bridge.jpg
+)" alt="2014春" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/摄影/">摄影</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/摄影/作品/">作品</a></p>
+              <p class="item-title"><a href="/2015/09/28/2014春/" class="title">2014春</a></p>
+              <p class="item-date"><time datetime="2015-09-28T09:41:25.000Z" itemprop="datePublished">2015-09-28</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/摄影/">摄影</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/摄影/作品/">作品</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/摄影/技巧/">技巧</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/项目/">项目</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/项目/Github/">Github</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/项目/Shadowsocks/">Shadowsocks</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/项目/Sublime/">Sublime</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/项目/iOS/">iOS</a><span class="category-list-count">1</span></li></ul></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">十月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">九月 2015</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/downgrade/">downgrade</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/film/">film</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ios6-1-3/">ios6.1.3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ipad/">ipad</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/photo/">photo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shadowsocks/">shadowsocks</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vpn/">vpn</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vsco/">vsco</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/downgrade/" style="font-size: 10px;">downgrade</a> <a href="/tags/film/" style="font-size: 10px;">film</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ios6-1-3/" style="font-size: 10px;">ios6.1.3</a> <a href="/tags/ipad/" style="font-size: 10px;">ipad</a> <a href="/tags/photo/" style="font-size: 10px;">photo</a> <a href="/tags/shadowsocks/" style="font-size: 10px;">shadowsocks</a> <a href="/tags/sublime/" style="font-size: 10px;">sublime</a> <a href="/tags/vpn/" style="font-size: 10px;">vpn</a> <a href="/tags/vsco/" style="font-size: 10px;">vsco</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">链接</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="http://hexo.io">Hexo</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="/" class="logo"></a>
+        </h1>
+        <p>&copy; 2016 Evin.Du</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/evindu" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+  <script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/jquery.fancybox.pack.js'></script>
+
+
+
+  <script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/jquery.scrollLoading.js'></script>
+  <script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/main.js'></script>
+
+
+<script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/html-patch.js'></script>
+<script type='text/javascript' src='http://7xn8ke.com1.z0.glb.clouddn.com/script.js'></script>
+</script>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','ppgNZef51VF3L7QbNbnX','2.0.0');
+</script>
+
+<script src="instantclick.min.js" data-no-instant></script>
+<script data-no-instant>
+/* Google Analytics code here, without ga('send', 'pageview') */
+ 
+InstantClick.on('change', function() {
+  ga('send', 'pageview', location.pathname + location.search);
+});
+ 
+InstantClick.init();
+</script>
+  </div>
+</body>
+</html>
